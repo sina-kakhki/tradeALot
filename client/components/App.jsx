@@ -1,35 +1,29 @@
 import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
-import Route from 'react-router-dom'
 
-import { fetchUsers } from '../actions'
-import SignIn from './SignIn'
-import SignUp from './SignUp'
+import { fetchFruits } from '../actions'
 
 function App (props) {
   useEffect(() => {
-    props.dispatch(fetchUsers())
+    props.dispatch(fetchFruits())
   }, [])
 
   return (
-    <Router>
-       <Fragment>
-        <Nav />
-      <div className='background-overlay'></div>
-        <div id="home">
-            <Table />
-            <div className="home-page">
-              <Route path="/signIn" component={SignIn} />
-              <Route path="/signUp" component={SignUp} />
-            </div>   
-        </div>
-      </Fragment>
-    </Router>
+    <>
+      <div className='app'>
+        <h1>Fullstack Boilerplate - with Fruits!</h1>
+        <ul>
+          {props.fruits.map(fruit => (
+            <li key={fruit}>{fruit}</li>
+          ))}
+        </ul>
+      </div>
+    </>
   )
 }
 const mapStateToProps = (globalState) => {
   return {
-    fruits: globalState.users
+    fruits: globalState.fruits
   }
 }
 
