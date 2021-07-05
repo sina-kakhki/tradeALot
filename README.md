@@ -1,29 +1,13 @@
-# Fullstack boilerplate
+# Parks
 
-## Getting Started
-
-### From the Github UI
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
-
-### From the command line
-
-```
-git clone https://github.com/dev-academy-challenges/boilerplate-fullstack [your-project-name]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
-```
-
-You can find the server running on [http://localhost:3000](http://localhost:3000).
-
-## Details
-
-This repo includes:
-
-* a single, simple API endpoint (`/api/v1/fruits`)
-* a single React component (`<App />`)
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Jest and testing library
-* configuration for server-side debugging in VS Code
-* a single client-side test (`client/components/App.test.js`)
+## User Stories
+1. As a user I want to view listed items.
+    - Categories tabs will display different itemsaccordingly, users can also search fo items using the search bar.
+3. As a user I want to be able to Sign-up.
+    - Use Auth0 for authentication.
+4. As a registered user I want to be able to add items to my watch list.
+    - Each listed item will have an add to watchlist button. users can view them from their profile page.
+5. As a registered user I want to be able to list items.
+    - Registered users can list items by clicking on list an item on the home page after they log in.
+7. As a registered user I want to be able to contact advertiseres and make offers.
+    - Each item will have a comment section on the buttom of it's page.
