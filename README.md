@@ -1,4 +1,4 @@
-# Parks
+# TradeALot
 
 ## User Stories
 1. As a user I want to view listed items.
