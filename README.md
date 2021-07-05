@@ -1,5 +1,22 @@
 # TradeALot
 
+# Parks
+
+> Explore and find your new favorite parks
+
+
+### From the command line
+
+```bash
+npm install # to install dependencies
+npm run knex migrate:latest # to reset database
+npm run knex seed:run # to get seed data
+npm run tailbuild # to build tailwind
+npm run dev # to start the dev server
+```
+
+You can find the server running on [http://localhost:3000](http://localhost:3000).
+
 ## User Stories
 1. As a user I want to view listed items.
     - Categories tabs will display different itemsaccordingly, users can also search fo items using the search bar.
