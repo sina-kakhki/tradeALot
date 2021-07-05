@@ -1,9 +1,6 @@
 # TradeALot
 
-# Parks
-
-> Explore and find your new favorite parks
-
+> Find your favorite items, buy or swap them with the advertiser!
 
 ### From the command line
 
