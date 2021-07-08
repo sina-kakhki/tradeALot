@@ -1,8 +1,8 @@
 # TradeALot
 
 Logo|Logo
-------------------------------------|------------------------------
-![Logo](client/styles/logo.PNG)|
+------------------------------------|
+![Logo](client/styles/logo.png)|
 
 > Find your favorite items, buy or swap them with the advertiser!
 
