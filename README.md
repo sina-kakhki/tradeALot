@@ -1,5 +1,9 @@
 # TradeALot
 
+Logo|Logo
+------------------------------------|------------------------------
+![Logo](client/styles/logo.PNG)|
+
 > Find your favorite items, buy or swap them with the advertiser!
 
 ### From the command line
