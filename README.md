@@ -1,6 +1,6 @@
 # TradeALot
 
-Logo|Logo
+Logo|
 ------------------------------------|
 ![Logo](client/styles/logo.png)|
 
